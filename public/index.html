@@ -2,24 +2,17 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>enumerateDevices test</title>
+    <title>enumerateDevices web test</title>
   </head>
   <body>
-    <h1>enumerateDevices test</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-
-    <p>A browser window should be open with a different index file,
-    printing the number of enumerate devices.</p>
-
-    <p>Electron number of devices: <span id="numOfDevices">0</span></p>
+    <h1>enumerateDevices web test</h1>
+    
+    <p>Testing browser should be Chrome</p>
+    <p>Web number of devices: <span id="numOfDevices">0</span></p>
     <button id="start">start</button>
     <button id="stop">stop</button>
     <script>
-      // You can also require other files to run in this process
-      require('./renderer.js')
+
       var interval;
 
       document.getElementById('stop').addEventListener('click', () => {
