@@ -1,5 +1,7 @@
 # Electron test repo for enumerate devices
 
+Repo for Electron issue [15886](https://github.com/electron/electron/issues/15886)
+
 **Instructions**
 
 Clone and do `yarn && yarn start`
